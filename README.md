@@ -1,0 +1,1 @@
+# kobunhada-java-common-libs
