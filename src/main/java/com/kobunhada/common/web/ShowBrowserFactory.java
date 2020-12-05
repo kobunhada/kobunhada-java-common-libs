@@ -1,0 +1,54 @@
+//------------------------------------------------------------------------------
+// KITASOFT API
+// ShowBrowserFactory.java
+//
+// Copyright(c) 2005-2007 Ippei.Kitajima. All Right Reserved
+//
+// [改訂履歴]
+// ver 1.0	2007/04/01	IPPEI.KITAJIMA	新規作成
+//------------------------------------------------------------------------------
+package com.kobunhada.common.web;
+
+import com.kobunhada.common.util.SystemUtil;
+
+/**
+ * ブラウザ起動Factoryクラス.
+ * 
+ * @author Ippei.Kitajima
+ * @version 1.00
+ */
+public class ShowBrowserFactory  {
+
+    /**
+     * コンストラクタ.
+     */
+    private ShowBrowserFactory() {
+    }
+    
+    /**
+     * ブラウザ起動クラスインスタンスを取得する.
+     * 
+     * @return ブラウザ起動クラスインスタンス
+     */
+    public static ShowBrowser getShowBrowserInstance() {
+
+        // 実行環境のOS種別を取得
+        String os = SystemUtil.getOS();
+        
+        // Windowsの場合        
+        if(os.equals(SystemUtil.OS_TYPE_WINDOWS)) {
+            return new ShowBrowserWindows();
+        }
+        // MacOSの場合
+        else if(os.equals(SystemUtil.OS_TYPE_MACOS)) {
+            return new ShowBrowserMacOS();
+        }
+        // Linuxの場合
+        else if(os.equals(SystemUtil.OS_TYPE_LINUX)) {
+            return new ShowBrowserLinux();
+        }
+    
+        return null;
+    }
+
+}

@@ -1,0 +1,83 @@
+//------------------------------------------------------------------------------
+// KITASOFT API
+// ShowBrowserLinux.java
+//
+// Copyright(c) 2005-2007 Ippei.Kitajima. All Right Reserved
+//
+// [改訂履歴]
+// ver 1.0	2007/04/01	IPPEI.KITAJIMA	新規作成
+//------------------------------------------------------------------------------
+package com.kobunhada.common.web;
+
+/**
+ * Linux用ブラウザ起動クラス.
+ * 
+ * @author Ippei.Kitajima
+ * @version 1.00
+ */
+public class ShowBrowserLinux implements ShowBrowser {
+    
+    /** ブラウザリスト. */
+    private String[] browserList = {
+        "firefox", "opera", "konqueror", "epiphany", "mozilla", "netscape" };
+    
+    /**
+     * コンストラクタ.
+     */
+    public ShowBrowserLinux() {
+    }
+
+    /**
+     * 指定したURLでブラウザを起動する.
+     * 
+     * @param url URL
+     * @throws Throwable 予期しない例外
+     */
+    public void execute(String url) throws Throwable {
+        
+        // ブラウザ名を取得
+        String browser = getBrowserName();
+        
+        // ブラウザ名が取得できなかった場合
+        if (browser == null) {
+           throw new Exception("A web browser is not found");
+        }
+        
+        // ブラウザを起動        
+        Runtime.getRuntime().exec(new String[] {browser, url});
+
+    }
+    
+    /**
+     * ブラウザ名を取得する.
+     * 
+     * @return ブラウザ名
+     * @throws Throwable 予期しない例外
+     */
+    private String getBrowserName() throws Throwable{
+        
+        String browser = null;
+
+        for (int i = 0; i < browserList.length; i++) {
+            if (Runtime.getRuntime().exec(
+                      new String[] {"which", browserList[i]}).waitFor() == 0) {
+                // ブラウザ名を取得
+                browser = browserList[i];
+                // ループから抜ける
+                break;
+            }
+        }
+        // 戻り値を返す
+        return browser;
+    }
+
+	public void setBrowser(String browser) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
+	public void setDefaultBrowser() {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+}
