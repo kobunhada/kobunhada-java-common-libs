@@ -3,7 +3,7 @@ package com.kobunhada.common.koyomi;
 /**
  * 
  * @version 1.00
- * @author Ippei.Kitajima
+ * @author kobunhada
  */
 public class GengoBean  {
 

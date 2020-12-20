@@ -1,12 +1,12 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // FileUtil.java
 //
-// Copyright(c) 2005-2009 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2009 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2006/12/24	IPPEI.KITAJIMA	新規作成
-// ver 1.1  2008/02/21  IPPEI.KITAJIMA  以下の2メソッドを追加
+// ver 1.0	2006/12/24	kobunhada	新規作成
+// ver 1.1  2008/02/21  kobunhada  以下の2メソッドを追加
 //                       loadTextFile(String), writeTextFile(String, ArrayList)
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util;
@@ -28,7 +28,7 @@ import com.kobunhada.common.io.FileManager;
 /**
  * ファイルユーティリティクラス.
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class FileUtil {

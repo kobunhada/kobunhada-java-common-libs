@@ -4,7 +4,7 @@
 // Copyright(c) 2005-2006 IppeiKitajima. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2006/05/01	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2006/05/01	kobunhada	新規作成
 //------------------------------------------------------------------------------
 package com.kobunhada.common.db.sql;
 import java.sql.Connection;
@@ -18,7 +18,7 @@ import com.kobunhada.common.debug.SystemOut;
  * 拡張コネクションクラス.
  * 
  * @version 1.00
- * @author Ippei.Kitajima
+ * @author kobunhada
  */
 public class ConnectionEx 
 {

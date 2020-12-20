@@ -5,7 +5,7 @@ import java.util.List;
 /**
  *
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 class QGKoyomiCollection  {

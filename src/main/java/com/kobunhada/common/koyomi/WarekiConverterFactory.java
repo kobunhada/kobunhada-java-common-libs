@@ -5,7 +5,7 @@ import java.util.List;
 /**
  *
  * @version 1.00
- * @author Ippei.Kitajima
+ * @author kobunhada
  */
 public class WarekiConverterFactory {
 

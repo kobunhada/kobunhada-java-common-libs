@@ -1,16 +1,16 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // StringUtil.java
 //
-// Copyright(c) 2005-2011 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2011 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0.0	2006/11/16	IPPEI.KITAJIMA	新規作成
-// ver 1.0.1    2008/03/05  IPPEI.KITAJIMA  replaceメソッドを修正
-// ver 1.0.2    2008/03/15  IPPEI.KITAJIMA  replaceメソッドを修正
-// ver 1.0.3    2009/11/03  IPPEI.KITAJIMA  getFileName, getFilePathについてディレクトリ区切り文字を"/"のみ
+// ver 1.0.0	2006/11/16	kobunhada	新規作成
+// ver 1.0.1    2008/03/05  kobunhada  replaceメソッドを修正
+// ver 1.0.2    2008/03/15  kobunhada  replaceメソッドを修正
+// ver 1.0.3    2009/11/03  kobunhada  getFileName, getFilePathについてディレクトリ区切り文字を"/"のみ
 //                                          の対応から、"¥", "/"の対応へ修正
-// ver 1.0.4    2011/02/26  IPPEI.KITAJIMA  countKeywordメソッドを追加
+// ver 1.0.4    2011/02/26  kobunhada  countKeywordメソッドを追加
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util;
 
@@ -24,7 +24,7 @@ import com.kobunhada.common.debug.SystemOut;
 /**
  * 文字列操作ユーティリティクラス.
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class StringUtil {

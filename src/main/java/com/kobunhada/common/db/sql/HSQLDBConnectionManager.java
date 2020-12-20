@@ -1,19 +1,19 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // HSQLDBConnectionManager.java
 //
-// Copyright(c) 2005-2006 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2006 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0		2006/05/01	IPPEI.KITAJIMA	新規作成
-// ver 1.0.1	2008/12/23	IPPEI.KITAJIMA	データベースモードを選択できる様に処理を修正
+// ver 1.0		2006/05/01	kobunhada	新規作成
+// ver 1.0.1	2008/12/23	kobunhada	データベースモードを選択できる様に処理を修正
 //------------------------------------------------------------------------------
 package com.kobunhada.common.db.sql;
 
 /**
  * HSQL用コネクション管理クラス.
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class HSQLDBConnectionManager extends ConnectionManager {

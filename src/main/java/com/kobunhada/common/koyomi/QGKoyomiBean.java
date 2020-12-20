@@ -3,7 +3,7 @@ package com.kobunhada.common.koyomi;
 /**
  *
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class QGKoyomiBean  {

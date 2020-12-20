@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
-// kobunhada's common libs.
-// ShowBrowser.java
+// KITASOFT API
+// ShowBrowserWindows.java
 //
 // Copyright(c) 2005-2007 kobunhada. All Right Reserved
 //
@@ -9,33 +9,51 @@
 //------------------------------------------------------------------------------
 package com.kobunhada.common.web;
 
+import com.kobunhada.common.util.SystemUtil;
+
 /**
- * ブラウザ起動インターフェイス.
+ * Windows用ブラウザ起動クラス.
  * 
  * @author kobunhada
  * @version 1.00
  */
-public interface ShowBrowser  {
-
-	
+public class ShowBrowserWindows implements ShowBrowser {
+    
+    private String browser = "";
+    
+    /**
+     * コンストラクタ.
+     */
+    public ShowBrowserWindows() {
+        setDefaultBrowser();
+    }
+    
     /**
      * デフォルトブラウザアプリケーション実行ファイルを設定する.
      */
-    public abstract void setDefaultBrowser();
+    public void setDefaultBrowser() {
+        this.browser = SystemUtil.getWebBrowserApplicationPath();
+    }
     
     /**
      * ブラウザアプリケーション実行ファイルを設定する.
      * 
      * @param browser ブラウザアプリケーション実行ファイル
      */
-    public abstract void setBrowser(String browser);    
-	
-	
+    public void setBrowser(String browser) {
+        this.browser = browser;
+    }
+    
     /**
      * 指定したURLでブラウザを起動する.
      * 
      * @param url URL
      * @throws Throwable 予期しない例外
      */
-    public abstract void execute(String url) throws Throwable;
+    public void execute(String url) throws Throwable {
+        
+        // Webブラウザを起動する        
+        Runtime.getRuntime().exec(browser + " " + url);
+    }
+
 }

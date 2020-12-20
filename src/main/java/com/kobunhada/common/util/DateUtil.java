@@ -1,13 +1,13 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // DateUtil.java
 //
-// Copyright(c) 2005-2011 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2011 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2006/11/16	IPPEI.KITAJIMA	新規作成
-// ver 1.1	2008/04/14	IPPEI.KITAJIMA	グレゴリオ日数取得メソッド追加
-// ver 1.2  2011/02/26  IPPEI.KITAJIMA  日付の差を求めるメソッド追加
+// ver 1.0	2006/11/16	kobunhada	新規作成
+// ver 1.1	2008/04/14	kobunhada	グレゴリオ日数取得メソッド追加
+// ver 1.2  2011/02/26  kobunhada  日付の差を求めるメソッド追加
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util;
 
@@ -22,7 +22,7 @@ import java.util.GregorianCalendar;
 /**
  * 日付ユーティリティクラス.
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class DateUtil  {

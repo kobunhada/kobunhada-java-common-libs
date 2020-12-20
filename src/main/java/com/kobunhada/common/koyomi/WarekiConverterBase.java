@@ -4,7 +4,7 @@ import java.util.Date;
 /**
  * 
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public abstract class WarekiConverterBase {

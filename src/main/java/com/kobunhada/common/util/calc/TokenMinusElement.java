@@ -1,11 +1,11 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // TokenMinusElement.java
 //
-// Copyright(c) 2005-2006 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2006 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2006/06/01	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2006/06/01	kobunhada	新規作成
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util.calc;
 
@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 /**
  * 減算演算子トークンクラス.
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 class TokenMinusElement extends TokenOperationElement 

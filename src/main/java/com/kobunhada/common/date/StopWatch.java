@@ -1,11 +1,11 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // StopWatch.java
 //
-// Copyright(c) 2005-2008 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2008 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2008/04/14	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2008/04/14	kobunhada	新規作成
 //------------------------------------------------------------------------------
 package com.kobunhada.common.date;
 import java.util.Date;
@@ -13,7 +13,7 @@ import java.util.Date;
 /**
  * 時間測定クラス.
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class StopWatch {

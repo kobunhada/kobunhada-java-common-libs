@@ -1,18 +1,18 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // CalcConstant.java
 //
-// Copyright(c) 2005-2006 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2006 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2006/06/01	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2006/06/01	kobunhada	新規作成
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util.calc;
 
 /**
  * 定数クラス.
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class CalcConstant {

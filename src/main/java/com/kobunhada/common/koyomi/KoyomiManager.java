@@ -8,7 +8,7 @@ import com.kobunhada.common.util.DateUtil;
 /**
  *
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class KoyomiManager  {

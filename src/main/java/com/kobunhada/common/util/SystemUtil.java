@@ -1,18 +1,18 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // SystemUtil.java
 //
-// Copyright(c) 2005-2007 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2007 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2007/04/01	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2007/04/01	kobunhada	新規作成
 //------------------------------------------------------------------------------
 package com.kobunhada.common.util;
 
 /**
  * システムユーティリティクラス.
  * 
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class SystemUtil  {

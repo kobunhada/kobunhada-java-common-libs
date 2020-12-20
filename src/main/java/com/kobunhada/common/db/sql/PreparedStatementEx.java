@@ -1,12 +1,12 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // PreparedStatementEx.java
 //
-// Copyright(c) 2005-2006 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2006 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0 2006/05/01	IPPEI.KITAJIMA	新規作成
-// ver 1.1 2006/05/19   IPPEI.KITAJIMA  setParameter(int, InputStream, int)追加
+// ver 1.0 2006/05/01	kobunhada	新規作成
+// ver 1.1 2006/05/19   kobunhada  setParameter(int, InputStream, int)追加
 //------------------------------------------------------------------------------
 package com.kobunhada.common.db.sql;
 
@@ -30,7 +30,7 @@ import java.util.Calendar;
 /**
  * PreparedStatement委譲クラス.
  * 
- * @author	IPPEI.KITAJIMA
+ * @author	kobunhada
  * @version	1.0
  */
 public class PreparedStatementEx {

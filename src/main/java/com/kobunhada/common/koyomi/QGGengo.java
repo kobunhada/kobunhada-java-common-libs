@@ -7,7 +7,7 @@ import com.kobunhada.common.util.StringUtil;
 /**
  *
  * @version 1.00
- * @author Ippei.Kitajima
+ * @author kobunhada
  */
 public class QGGengo {
     /** 元号リスト. */

@@ -1,11 +1,11 @@
 //------------------------------------------------------------------------------
-// KITASOFT API
+// kobunhada's common libs.
 // CipherUtil.java
 //
-// Copyright(c) 2005-2007 Ippei.Kitajima. All Right Reserved
+// Copyright(c) 2005-2007 kobunhada. All Right Reserved
 //
 // [改訂履歴]
-// ver 1.0	2007/01/24	IPPEI.KITAJIMA	新規作成
+// ver 1.0	2007/01/24	kobunhada	新規作成
 //------------------------------------------------------------------------------
 
 package com.kobunhada.common.util;
@@ -31,7 +31,7 @@ import com.kobunhada.common.io.FileManager;
 /**
  * 暗号化・復号化ユーティリティクラス.
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class CipherUtil {

@@ -7,7 +7,7 @@ import com.kobunhada.common.util.DateUtil;
 /**
  *
  * @version 1.00
- * @author Ippei.Kitajima
+ * @author kobunhada
  */
 public class WarekiConverterQJ extends WarekiConverterBase {
 

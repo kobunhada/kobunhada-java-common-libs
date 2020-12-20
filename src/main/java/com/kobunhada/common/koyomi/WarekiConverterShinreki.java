@@ -11,7 +11,7 @@ import com.kobunhada.common.util.StringUtil;
  *
  *
  *
- * @author Ippei.Kitajima
+ * @author kobunhada
  * @version 1.00
  */
 public class WarekiConverterShinreki extends WarekiConverterBase  {
