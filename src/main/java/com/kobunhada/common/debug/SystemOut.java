@@ -35,7 +35,7 @@ public class SystemOut {
 	 */
 	public static void println(Object obj) {
 		if(OUTPUT_FLG) {
-			SystemOut.println(obj);
+			System.out.println(obj);
 		}
 	}
 	
